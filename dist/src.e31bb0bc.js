@@ -201,6 +201,7 @@ var Theme = {
   LIGHT: 'light-theme',
   DARK: 'dark-theme'
 };
+bodyEl.classList.add(Theme.LIGHT);
 
 var lightThemeFunc = function lightThemeFunc() {
   bodyEl.classList.add(Theme.LIGHT);
@@ -2506,7 +2507,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61540" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63012" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

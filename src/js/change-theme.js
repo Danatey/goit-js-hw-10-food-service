@@ -6,6 +6,8 @@ const Theme = {
   DARK: 'dark-theme',
 };
 
+bodyEl.classList.add(Theme.LIGHT);
+
 const lightThemeFunc = () => {
     bodyEl.classList.add(Theme.LIGHT);
     bodyEl.classList.remove(Theme.DARK);
